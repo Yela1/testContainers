@@ -18,13 +18,16 @@ dependencies {
     implementation 'mysql:mysql-connector-java:8.0.29'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.cloud:spring-cloud-starter-aws-messaging:2.2.6.RELEASE'
     testImplementation 'org.codehaus.groovy:groovy-all:3.0.0'
     testImplementation 'org.spockframework:spock-spring:2.0-groovy-3.0'
     testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.testcontainers:testcontainers:1.17.2'
-    testImplementation 'org.testcontainers:mysql:1.17.2'
+    testImplementation 'org.testcontainers:testcontainers:1.17.3'
+    testImplementation 'org.testcontainers:mysql:1.17.3'
     testImplementation "org.testcontainers:spock:1.17.3"
+    testImplementation 'org.testcontainers:localstack:1.17.3'
+    testImplementation 'org.awaitility:awaitility:4.1.1'
 
 
 }
